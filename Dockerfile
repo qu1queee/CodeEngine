@@ -1,4 +1,4 @@
-FROM golang:alpine
+FROM golang:1.15
 COPY codeengine.go /
 RUN go build -o /codeengine /codeengine.go
 
